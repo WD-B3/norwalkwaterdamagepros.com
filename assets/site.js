@@ -1,0 +1,2 @@
+document.addEventListener('DOMContentLoaded',function(){var b=document.querySelector('.menu-btn'),n=document.getElementById('navmenu');if(b&&n){b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});}
+document.querySelectorAll('.has-drop>button.dd').forEach(function(d){d.addEventListener('click',function(){var li=d.parentNode,o=li.classList.toggle('open');d.setAttribute('aria-expanded',o?'true':'false');});});});
